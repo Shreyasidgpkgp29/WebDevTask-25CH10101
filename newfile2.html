@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsplash-Illustrations-Featured</title>
+    <style>
+        body{
+            margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: white;
+  color: black;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: white;
+  color: black;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+
+
+
+
+<!--navbar-->
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+}
+
+.navbar a {
+  float:left;
+  padding: 12px;
+  color:grey;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+    color:black;
+    background-color: white;
+}
+
+.navbar a.active {
+    color:black;
+    text-decoration: underline;
+    background-color:white;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+.photos {
+  display:inline-grid;
+  grid-template-columns: auto auto auto;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:1rem;
+  grid-template-rows: masonry;
+}
+
+#p{
+  aspect-ratio: auto;
+
+
+}
+
+#p img{
+  width:100%;
+  height:auto;
+  margin-bottom:20px;
+  margin:0;
+  padding:0;
+  break-inside: avoid;
+  display: block;
+
+}
+
+@media (max-width: 1000px) {
+  .photos{
+    column-count: 2;
+  }
+  .photos img {
+    margin-bottom: 15px; 
+  }
+}
+  
+
+@media (max-width: 600px) {
+    .photos {
+        column-count: 1; /* One column for maximum readability */
+        column-gap: 0;
+    }
+    .photos img {
+        margin-bottom: 15px; 
+    }
+}
+
+
+.photos a:hover {
+    color:#717674;
+}
+
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="newfile.html">Photos</a>
+        <a class="active" href="newfile2.html">Illustrations</a>
+        <a href="payment_form.html">Login</a>   
+      </div>
+
+    <div class="content">
+        <div class="navbar">
+            <nav>
+                <a class="active" href="newfile2.html">Featured</a>
+                <a href="newfile3.html">3D</a>
+                
+            </nav>
+        </div>
+        <p><h1><u>Featured Photos</u></h1></p>
+        <p>Explore all our featured photos in one space</p>
+        <br>
+        <br>
+        <br>
+        <div class="photos">
+            <div id="p"><a href="#"><img src="C:\Users\Sheryasi Saha\Downloads\deep-nLXzTc5r3d0-unsplash.jpg" width="300"></a></div>
+            <div id="p"><a href="#"><img src="C:\Users\Sheryasi Saha\Downloads\dela-salsabilla-jdc0feaTn8Y-unsplash.jpg" width="300"></a></div>
+            <div id="p"><a href="#"><img src="C:\Users\Sheryasi Saha\Downloads\masantocreative-11DTr3pcE9g-unsplash.jpg" width="300"></a></div>
+            <div id="p"><a href="#"><img src="C:\Users\Sheryasi Saha\Downloads\bartosz-panek-uVZktsSJ5es-unsplash.jpg" width="300"></a></div>
+            <div id="p"><a href="#"><img src="C:\Users\Sheryasi Saha\Downloads\irvan-maulana-v8aNSSlWWzM-unsplash.jpg" width="300"></a></div>
+            <div id="p"><a href="#"><img src="C:\Users\Sheryasi Saha\Downloads\public-domain-vectors-Np60DNjS_Nc-unsplash.jpg" width="300"></a></div>
+            <div id="p"><a href="#"><img src="C:\Users\Sheryasi Saha\Downloads\wahyu-setyanto-XuX8bKlSAcY-unsplash.jpg" width="300"></a></div>
+            <div id="p"><a href="#"><img src="C:\Users\Sheryasi Saha\Downloads\ved-8SaMwlCMMu0-unsplash.jpg" width="300"></a></div>
+            <div id="p"><a href="#"><img src="C:\Users\Sheryasi Saha\Downloads\marigotie-GX4QCMoSxgc-unsplash.jpg" width="300"></a></div>
+            <div id="p"><a href="#"><img src="C:\Users\Sheryasi Saha\Downloads\godsfavoriteart-3zf_smj2kZs-unsplash.jpg" width="300"></a></div>
+            <div id="p"><a href="#"><img src="C:\Users\Sheryasi Saha\Downloads\hammam-fuad-ArIz_309jSs-unsplash.jpg" width="300"></a></div>
+            <div id="p"><a href="#"><img src="C:\Users\Sheryasi Saha\Downloads\pixeliota-3tR4ez8XZzI-unsplash.jpg" width="300"></a></div>
+        </div>
+    </div>
+    
+</body>
+</html>
